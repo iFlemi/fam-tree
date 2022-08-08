@@ -1,12 +1,6 @@
 import React from 'react'
 import './App.css'
-
-import { exampleTree } from './exampleTree'
-import { Person } from './Person'
-
-const getPeopleFromTree = () =>{
-  const people = exampleTree.map(p => new Person(p.id, p.name, p.gender, p.parents, p.children))
-} 
+import FamilyTree from './components/familyTree'
 
 function App() {
 //load tree object
@@ -15,6 +9,7 @@ function App() {
 //display
   return (
     <div className="App">
+      <FamilyTree></FamilyTree>
     </div>
   )
 }

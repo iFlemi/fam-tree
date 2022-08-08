@@ -13,7 +13,7 @@ describe('Person tests', function () {
     assert.equal(person.gender, Gender[mappableGender])
   })
   it('maps invalid gender to unspecified on construction', function () {
-    const person = new Person(someNumber, someString, someString, someNumbers, someNumbers)
+    const person = new Person(someNumber, someString, mappableGender, someNumbers, someNumbers)
     assert.equal(person.gender, Gender[unspecifiedGender])
   })
 })
