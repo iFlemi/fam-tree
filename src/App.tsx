@@ -1,24 +1,21 @@
 import React from 'react'
-import logo from './logo.svg'
 import './App.css'
 
+import { exampleTree } from './exampleTree'
+import { Person } from './Person'
+
+const getPeopleFromTree = () =>{
+  const people = exampleTree.map(p => new Person(p.id, p.name, p.gender, p.parents, p.children))
+} 
+
 function App() {
+//load tree object
+//convert to people
+//convert to nodes + edges
+//display
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <header className="App-header"></header>
     </div>
   )
 }
