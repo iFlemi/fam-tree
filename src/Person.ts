@@ -1,11 +1,11 @@
 export class Person {
-  id: number
+  id: bigint
   name: string
   gender: Gender
-  parents: number[]
-  children: number[]
+  parents: bigint[]
+  children: bigint[]
 
-  constructor(id: number, name: string, gender: string, parents: number[], children: number[]) {
+  constructor(id: bigint, name: string, gender: string, parents: bigint[], children: bigint[]) {
     this.id = id ?? 0
     this.name = name ?? ''
     this.gender = Gender[gender as genderType] ?? Gender.unspecified

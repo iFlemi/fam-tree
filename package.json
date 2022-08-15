@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "ramda": "^0.28.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-flow-renderer": "^10.3.14",
@@ -41,6 +42,7 @@
     "@types/chai": "^4.3.3",
     "@types/jest": "^27.5.2",
     "@types/node": "^16.11.47",
+    "@types/ramda": "^0.28.15",
     "@types/react": "^18.0.15",
     "@types/react-dom": "^18.0.6",
     "@typescript-eslint/eslint-plugin": "^5.32.0",

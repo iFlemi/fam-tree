@@ -1,7 +1,7 @@
 .App {
   text-align: center;
-  height: 100vh;
-  width: 100vw;
+  height:  100%;
+  width: 100%;
 }
 
 .App-header {
@@ -17,4 +17,31 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.tree {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.parents{
+  
+}
+
+.person {
+  min-height: 50px;
+  width: 100px;
+  padding: 5px;
+  border: grey;
+  border-width: 5px;
+  border-radius: 5px;
+}
+
+.male {
+  background-color: lightblue;
+}
+
+.female{
+  background-color: lightpink;
 }

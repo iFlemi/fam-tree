@@ -1,6 +1,6 @@
 import React from 'react'
 import './App.css'
-import FamilyTree from './components/familyTree'
+import FamilyTree from './components/Tree'
 
 function App() {
 //load tree object
