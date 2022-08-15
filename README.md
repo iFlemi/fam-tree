@@ -18,7 +18,11 @@ Spent 3 hours getting 1) working and will not have another free block of time th
 To see the object output from 1)
 
 clone repo
+
 npm i
+
 go to personHelper.test.ts
+
 change the line `describe.skip('buildTree', function() {` to `describe.only('buildTree', function() {` (or remove the skip)
+
 npm run test
